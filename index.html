@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welding Experts | Professional Welding Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root{
+  --dark:#0f172a;
+  --accent:#ff6b35;
+  --light:#f8fafc;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:var(--light);
+  color:#334155;
+}
+
+/* HERO */
+.hero{
+  background:linear-gradient(rgba(15,23,42,.85),rgba(15,23,42,.85)),
+  url('https://images.unsplash.com/photo-1581092160562-40aa08e78837') center/cover;
+  color:white;
+  text-align:center;
+  padding:90px 20px;
+}
+.hero h1{
+  font-size:42px;
+  margin-bottom:10px;
+}
+.hero p{
+  font-size:20px;
+  margin-bottom:30px;
+}
+.hero a{
+  background:var(--accent);
+  color:white;
+  padding:15px 35px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:18px;
+}
+
+/* SECTION */
+section{
+  padding:70px 20px;
+  text-align:center;
+}
+h2{
+  font-size:34px;
+  margin-bottom:40px;
+  color:var(--dark);
+}
+
+/* SERVICES */
+.services{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+  max-width:1100px;
+  margin:auto;
+}
+.card{
+  background:white;
+  padding:30px;
+  border-radius:16px;
+  box-shadow:0 10px 25px rgba(0,0,0,.1);
+  transition:.3s;
+}
+.card:hover{
+  transform:translateY(-8px);
+}
+.card h3{
+  color:var(--accent);
+  font-size:22px;
+}
+
+/* GALLERY */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+  max-width:1100px;
+  margin:auto;
+}
+.gallery img{
+  width:100%;
+  border-radius:14px;
+  box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+/* CONTACT */
+.contact{
+  background:var(--dark);
+  color:white;
+}
+.contact p{
+  font-size:20px;
+}
+.contact a{
+  display:inline-block;
+  background:#25D366;
+  color:white;
+  padding:16px 40px;
+  border-radius:50px;
+  text-decoration:none;
+  font-size:20px;
+  font-weight:bold;
+}
+
+/* FLOATING WHATSAPP */
+.float-whatsapp{
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  background:#25D366;
+  color:white;
+  padding:16px 22px;
+  border-radius:50px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow:0 10px 20px rgba(0,0,0,.3);
+}
+
+/* FOOTER */
+footer{
+  background:#020617;
+  color:white;
+  text-align:center;
+  padding:20px;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <h1>Welding Experts</h1>
+  <p>Strong • Reliable • Professional Welding Work</p>
+  <a href="#contact">Get Free Quote</a>
+</div>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>MS Gates</h3>
+      <p>Custom-designed strong MS gates with premium finishing.</p>
+    </div>
+    <div class="card">
+      <h3>Safety Grills</h3>
+      <p>Window & balcony grills ensuring safety and durability.</p>
+    </div>
+    <div class="card">
+      <h3>Sheds & Shutters</h3>
+      <p>Weather-resistant sheds and rolling shutters.</p>
+    </div>
+    <div class="card">
+      <h3>Railings & Windows</h3>
+      <p>Modern railing and window fabrication solutions.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Our Work</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/500x300?text=Gate+Work">
+    <img src="https://via.placeholder.com/500x300?text=Grill+Work">
+    <img src="https://via.placeholder.com/500x300?text=Window+Work">
+    <img src="https://via.placeholder.com/500x300?text=Shed+Work">
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>📞 Call / WhatsApp: <b>8019341746</b></p>
+  <a href="https://wa.me/918019341746" target="_blank">Chat on WhatsApp</a>
+</section>
+
+<a class="float-whatsapp" href="https://wa.me/918019341746" target="_blank">
+  WhatsApp
+</a>
+
+<footer>
+  © 2025 Welding Experts | All Rights Reserved
+</footer>
+
+</body>
+  </html>
